@@ -1,0 +1,22 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  background-color: #F5F6F7;
+}
+.responsiveView{
+  width: 75%;
+}
+
+@media (max-width: 576px) { 
+  .responsiveView{
+    width: 100%;
+
+  }
+}
+
+@media (min-width: 992px) { 
+  .responsiveView{
+    width: 50%;
+
+  }
+}
